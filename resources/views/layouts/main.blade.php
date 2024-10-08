@@ -14,7 +14,7 @@
     <title>Agent Biiler</title>
 
     <!--====== Favicon ======-->
-    <link rel="shortcut icon" href="assets/img/logo/favicon.png" type="images/x-icon">
+    <link rel="shortcut icon" href="assets/img/logo/favicon1.jpg" type="images/x-icon">
 
     <!--====== CSS Here ======-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -53,7 +53,7 @@
                 <div class="col-xl-10 col-lg-4 col-sm-6 col-7 align-self-center">
                     <div class="sotcox-logo-menu-wrapper">
                         <a href=" {{ route('utama.index')}}" class="sotcox-logo">
-                            <img src="assets/img/logo/logo.png" alt="LOGO">
+                            <img src="assets/img/logo/logo1.jpg" alt="LOGO">
                         </a>
                         <div class="sotcox-menu-wrapper">
                             <div class="sotcox-main-menu">
@@ -109,7 +109,7 @@
         </nav>
         <div class="side-info__wrapper d-flex align-items-center justify-content-between">
             <div class="side-info__logo">
-                <a href="index.html">
+                <a href="">
                     <img src="assets/img/logo/logo.png" alt="logo">
                 </a>
             </div>
@@ -182,7 +182,7 @@
         <div class="side-info">
             <div class="side-info__content mb-35">
                 <h4 class="title mb-10">About us</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Tentang Agent</p>
                 <a class="sotcox-btn sotcox-btn__small mt-20" href="contact.html">Contact us <span></span></a>
             </div>
             <div class="contact__info--wrapper mt-15">
@@ -369,8 +369,8 @@
                                 <img src="assets/img/icons/service-icon-1.png" alt="">
                             </div>
                             <div class="content">
-                                <h4 class="title"><a href="service-details.html">Produk</a></h4>
-                                <a href="service-details.html" class="sotcox-inline-btn">
+                                <h4 class="title"><a href="">Produk</a></h4>
+                                <a href="" class="sotcox-inline-btn">
                                     <i class="far fa-arrow-right"></i>
                                     <i class="far fa-arrow-right"></i>
                                 </a>
@@ -381,8 +381,8 @@
                                 <img src="assets/img/icons/service-icon-2.png" alt="">
                             </div>
                             <div class="content">
-                                <h4 class="title"><a href="service-details.html">IT Managemen</a></h4>
-                                <a href="service-details.html" class="sotcox-inline-btn">
+                                <h4 class="title"><a href="s">IT Managemen</a></h4>
+                                <a href="" class="sotcox-inline-btn">
                                     <i class="far fa-arrow-right"></i>
                                     <i class="far fa-arrow-right"></i>
                                 </a>
@@ -405,8 +405,8 @@
                                 <img src="assets/img/icons/service-icon-4.png" alt="">
                             </div>
                             <div class="content">
-                                <h4 class="title"><a href="service-details.html">Keamanan Transaksi</a></h4>
-                                <a href="service-details.html" class="sotcox-inline-btn">
+                                <h4 class="title"><a href="">Keamanan Transaksi</a></h4>
+                                <a href="" class="sotcox-inline-btn">
                                     <i class="far fa-arrow-right"></i>
                                     <i class="far fa-arrow-right"></i>
                                 </a>
@@ -417,8 +417,8 @@
                                 <img src="assets/img/icons/service-icon-5.png" alt="">
                             </div>
                             <div class="content">
-                                <h4 class="title"><a href="service-details.html">Inovasi</a></h4>
-                                <a href="service-details.html" class="sotcox-inline-btn">
+                                <h4 class="title"><a href="">Inovasi</a></h4>
+                                <a href="" class="sotcox-inline-btn">
                                     <i class="far fa-arrow-right"></i>
                                     <i class="far fa-arrow-right"></i>
                                 </a>
@@ -959,7 +959,7 @@
                                     <span class="odometer" data-count="3,860">00</span>
                                     <span class="sign">+</span>
                                 </h2>
-                                <p>Satisfied Clients</p>
+                                <p>Satisfied Agent</p>
                             </div>
                             <div class="shape"><img src="assets/img/shapes/achivement-shape.png" alt=""></div>
                         </div>
@@ -972,7 +972,7 @@
                                     <span class="odometer" data-count="8,550">00</span>
                                     <span class="sign">+</span>
                                 </h2>
-                                <p>Project Completed</p>
+                                <p>Transaksi Completed</p>
                             </div>
                         </div>
                         <div class="box-item box-item__style-2">
@@ -1006,55 +1006,6 @@
     </div>
     <!--====== ACHIVEMENT SECTION END ======-->
 
-
-    <!--====== CONTACT INFO SECTION START ======-->
-    <div class="sotcox-contact-info theme-light-bg pt-130">
-        <div class="container">
-            <div class="row mt-none-30">
-                <div class="col-xl-4 col-lg-6 col-md-6 mt-30">
-                    <div class="sotcox-contact-info-box sotcox-contact-info-box__1 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="800ms">
-                        <div class="icon">
-                            <img src="assets/img/icons/phone.png" alt="">
-                        </div>
-                        <div class="content">
-                            <span>free consultation</span>
-                        <p>Saya kelebihan/kekurangan  <br> membayar transaksi, apa yang harus dilakukan?</p>
-                        <a href="contact.html" class="sotcox-btn">schedule now <span></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 mt-30">
-                    <div class="sotcox-contact-info-box sotcox-contact-info-box__2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="800ms">
-                        <div class="icon">
-                            <img src="assets/img/icons/envelope.png" alt="">
-                        </div>
-                        <div class="content">
-                            <span>request</span>
-                        <p>Begin Your Adventure <br> With Experienced <br> Professionals</p>
-                        <a href="contact.html" class="sotcox-btn">send request <span></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 mt-30">
-                    <div class="sotcox-contact-info-box sotcox-contact-info-box__3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="800ms">
-                        <div class="icon">
-                            <img src="assets/img/icons/desk.png" alt="">
-                        </div>
-                        <div class="content">
-                            <span>hellp desk</span>
-                        <p>Do You Have Questions or <br> Want More Information? <br> Call Now.</p>
-                        <div class="info-call">
-                                <span class="icon"><img src="assets/img/icons/phone-2.png" alt=""></span>
-                                <span class="number">865-588-4687</span>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--====== CONTACT INFO SECTION END ======-->
-
     <!--====== FOOTER START ======-->
     <footer class="sotcox-footer theme-light-bg pt-95">
         <div class="sotcox-footer-widgets">
@@ -1064,7 +1015,7 @@
                         <div class="widget">
                             <div class="about-widget">
                                 <a href="{{ route('utama.index')}}" class="sotcox-footer-logo mb-35">
-                                    <img src="assets/img/logo/logo.png" alt="">
+                                    <img src="assets/img/logo/logo1.jpg" alt="">
                                 </a>
                                 <p><i class="far fa-map-marker-alt"></i> Mitra PPOB</p>
                                 {{-- <p><i class="far fa-envelope"></i> Sotcoxinfo@gmail.com</p> --}}
@@ -1082,10 +1033,10 @@
                             <h3 class="widget-title">Menu</h3>
                             <ul>
                                 <li><a href="">Home</a></li>
-                                <li><a href="service-details.html">About Us</a></li>
-                                <li><a href="service-details.html">Services</a></li>
-                                <li><a href="service-details.html">Ketentuan Umum</a></li>
-                                <li><a href="service-details.html">Faq</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Services</a></li>
+                                <li><a href="">Ketentuan Umum</a></li>
+                                <li><a href="">Faq</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1113,7 +1064,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <p>Copyright &copy; <span id="copyright-date"></span> PT Digital Voucher Indonesia, All Rights Reserved.</p>
+                        <p>Copyright &copy; <span id="copyright-date"></span> PT Dinamika Mitra Terdepan, All Rights Reserved.</p>
                     </div>
                     <div class="col-md-4">
                         <div class="sotcox-backtotop">
@@ -1125,8 +1076,6 @@
         </div>
     </footer>
     <!--====== FOOTER END ======-->
-
-
 
     <!--========= JS Here =========-->
     <script src="assets/js/jquery-3.7.0.min.js"></script>
