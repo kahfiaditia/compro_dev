@@ -21,7 +21,7 @@
                         <li><i class="fas fa-circle-notch"></i> Inovasi Sistem </li>
                         <li><i class="fas fa-circle-notch"></i> Transparasi harga dan biaya produk</li>
                     </ul>
-                    <a href="" class="sotcox-btn mt-35">more about us <span></span></a>
+                    <a href="{{ route('about.index')}}" class="sotcox-btn mt-35"> About us <span></span></a>
                 </div>
             </div>
         </div>

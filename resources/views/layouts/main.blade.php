@@ -68,6 +68,7 @@
                 <a href="">
                     <img src="assets/img/logo/logo1.jpg" alt="logo">
                 </a>
+                <p>Tentang Agent</p>
             </div>
             <div class="side-info__close">
                 <a href="javascript:void(0);"><i class="far fa-times"></i></a>
@@ -127,9 +128,10 @@
     <aside class="side-info-wrapper show-all">
         <div class="side-info__wrapper d-flex align-items-center justify-content-between">
             <div class="side-info__logo">
-                <a href="index.html">
+                <a href="">
                     <img src="assets/img/logo/logo1.jpg" alt="logo">
                 </a>
+                <p>Tentang Agent</p>
             </div>
             <div class="side-info__close">
                 <a href="javascript:void(0);"><i class="far fa-times"></i></a>

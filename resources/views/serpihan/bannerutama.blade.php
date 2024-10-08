@@ -8,7 +8,7 @@
                 <div class="inner-content">
                     <h1 class="title wow fadeInUp" data-wow-delay="200ms" data-wow-duration="800ms">Solusi Topup dan Voucher Digital</h1>
                     <div class="inner-btns mt-50">
-                        <a href="services.html" class="sotcox-btn wow fadeInUp" data-wow-delay="500ms" data-wow-duration="800ms">Our Service <span></span></a>
+                        <a href="{{ route('service.index')}}" class="sotcox-btn wow fadeInUp" data-wow-delay="500ms" data-wow-duration="800ms">Our Service <span></span></a>
                         {{-- <div class="sotcox-video-wrapper wow fadeInUp" data-wow-delay="700ms" data-wow-duration="800ms">
                             <a href="//youtube.com/embed/4xe72U7mXNg?rel=0&controls=0&showinfo=0" data-rel="lightcase" class="sotcox-video-btn">
                                 <i class="fas fa-play"></i>
