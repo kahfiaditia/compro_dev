@@ -16,7 +16,7 @@
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFaq">
                                     <div class="accordion-body content">
-                                        <p>Transaksi Anda akan gagal apabila membayar tidak sesuai dengan total order. Untuk itu, Anda bisa mengajukan refund ke tim Customer Service melalui email ke care@dvi247.com</p>
+                                        <p>Transaksi Anda akan gagal apabila membayar tidak sesuai dengan total order. Untuk itu, Anda bisa mengajukan refund ke tim Customer Service melalui email ke information@delaerppob.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -33,24 +33,20 @@
                                             Nomor handphone/telepon, nomor pelanggan, atau nomor meteran listrik tidak valid sehingga menyebabkan transaksi gagal pada pihak operator, pembayaran transaksi yang tidak sesuai dengan total order
                                             Pengajuan refund tidak berlaku untuk hal-hal berikut ini:
                                             
-                                            Adanya kelalaian atau kesalahan dalam menginput data seperti nomor handphone, nomor meteran listrik, nomor BPJS, nomor Telkom/Indihome, nomor tagihan cicilan multifinance, namun status transaksi di Dvi247 telah Berhasil, maka dana tidak dapat direfund, tidak ditemukannya pembayaran transaksi dari pelanggan </p>
+                                            Adanya kelalaian atau kesalahan dalam menginput data seperti nomor handphone, nomor meteran listrik, nomor BPJS, nomor Telkom/Indihome, nomor tagihan cicilan multifinance, namun status transaksi telah Berhasil, maka dana tidak dapat direfund, tidak ditemukannya pembayaran transaksi dari pelanggan </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item faq__item">
                                 <h2 class="accordion-header title" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Minimum Pembayaran Transaksi di Dvi247
+                                        Minimum Pembayaran Transaksi
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFaq">
                                     <div class="accordion-body content">
-                                        <p>Va Semua Bank, BNI VA, Mandiri VA, minimum total order sebesar 25.000,-
-
-                                            Va BCA minimum total order sebesar 100.000,-
-                                            
+                                        <p>Va Semua Bank, BNI VA, Mandiri VA, dan Va BCA minimum total order sebesar 10.000,-.   <br>                                        
                                             Pukul 21:00-02:00 WIB BCA dalam proses Cut Off/Maintenance setiap hari nya, sehingga pembayaran yang di lakukan selama proses Cut Off akan terproses setelah Cut Off selesai.
-                                            
                                             Pastikan pembayaran Anda sesuai total tagihan yang kami informasikan agar dapat terverifikasi otomatis.</p>
                                     </div>
                                 </div>
