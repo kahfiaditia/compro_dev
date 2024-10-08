@@ -70,7 +70,7 @@
                                 <span class="odometer" data-count="3,860">00</span>
                                 <span class="sign">+</span>
                             </h2>
-                            <p>Satisfied Agent</p>
+                            <p>Kepuasan Agen</p>
                         </div>
                         <div class="shape"><img src="assets/img/shapes/achivement-shape.png" alt=""></div>
                     </div>
@@ -83,7 +83,7 @@
                                 <span class="odometer" data-count="8,550">00</span>
                                 <span class="sign">+</span>
                             </h2>
-                            <p>Transaksi Completed</p>
+                            <p>Transaksaksi Perhari</p>
                         </div>
                     </div>
                     <div class="box-item box-item__style-2">
@@ -104,10 +104,10 @@
                         </div>
                         <div class="content">
                             <h2 class="title d-flex align-items-end justify-content-center mt-30">
-                                <span class="odometer" data-count="90">00</span>
+                                <span class="odometer" data-count="150">00</span>
                                 <span class="sign">+</span>
                             </h2>
-                            <p>Team Member</p>
+                            <p>Agen</p>
                         </div>
                     </div>
                 </div>

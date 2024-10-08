@@ -1,12 +1,184 @@
 <!--====== HEADER START ======-->
+<?php
+    function getSubdomain($url) {
+        $parsedUrl = parse_url($url);
+        $host = explode('.', $parsedUrl['host']);
+
+        if (count($host) > 2) {
+            return implode('.', array_slice($host, 0, -2));
+        } else {
+            return '';
+        }
+    }
+
+$url = "https://$_SERVER[HTTP_HOST]";
+$subdomain = getSubdomain($url);
+
+$subdomainToNamaToko = [
+    'beningnusantara' => 'Bening Nusantara',
+    'citramandiri' => 'Citra Mandiri',
+    'dewiindah' => 'Dewi Indah',
+    'elanglestari' => 'Elang Lestari',
+    'fajarmerah' => 'Fajar Merah',
+    'giriwahana' => 'Giri Wahana',
+    'harmonibersama' => 'Harmoni Bersama',
+    'sawahbalong' => 'Sawah Balong',
+    'jatimurni' => 'Jati Murni',
+    'ketapangindah' => 'Ketapang Indah',
+    'lautanhijau' => 'Lautan Hijau',
+    'paradiseindah' => 'Paradise Indah',
+    'mentarijaya' => 'Mentari Jaya',
+    'mustikajaya' => 'Mustika Jaya',
+    'nirwanasejati' => 'Nirwana Sejati',
+    'nusantarakencana' => 'Nusantara Kencana',
+    'pertiwilestari' => 'Pertiwi Lestari',
+    'pratamautama' => 'Pratama Utama',
+    'putrasejahtera' => 'Putra Sejahtera',
+    'rimbakencana' => 'Rimba Kencana',
+    'satriautama' => 'Satria Utama',
+    'seruniindah' => 'Seruni Indah',
+    'tunasmuda' => 'Tunas Muda',
+    'wirautama' => 'Wira Utama',
+    'yudhamandiri' => 'Yudha Mandiri',
+    'zamrudkencana' => 'Zamrud Kencana',
+    'timurlaut' => 'Timur Laut',
+    'bintangpertiwi' => 'Bintang Pertiwi',
+    'cahayabiru' => 'Cahaya Biru',
+    'dewikencana' => 'Dewi Kencana',
+    'floraraya' => 'Flora Raya',
+    'ganeshalestari' => 'Ganesha Lestari',
+    'hijausejahtera' => 'Hijau Sejahtera',
+    'indahjaya' => 'Indah Jaya',
+    'jatiperkasa' => 'Jati Perkasa',
+    'kemalaindah' => 'Kemala Indah',
+    'lenteraraya' => 'Lentera Raya',
+    'megasejahtera' => 'Mega Sejahtera',
+    'nusasejati' => 'Nusa Sejati',
+    'pusakalestari' => 'Pusaka Lestari',
+    'samudraindah' => 'Samudra Indah',
+    'tigaputra' => 'Tiga Putra',
+    'trisaktimandiri' => 'Trisakti Mandiri',
+    'utamabersama' => 'Utama Bersama',
+    'wijayakencana' => 'Wijaya Kencana',
+    'yudhapratama' => 'Yudha Pratama',
+    'zamrudutama' => 'Zamrud Utama',
+    'angkasacerah' => 'Angkasa Cerah',
+    'berkahjaya' => 'Berkah Jaya',
+    'cakraabadi' => 'Cakra Abadi',
+    'ciptahijau' => 'Cipta Hijau',
+    'dutautama' => 'Duta Utama',
+    'elangnusantara' => 'Elang Nusantara',
+    'fajarmustika' => 'Fajar Mustika',
+    'garudaterbang' => 'Garuda Terbang',
+    'harmonihijau' => 'Harmoni Hijau',
+    'intankencana' => 'Intan Kencana',
+    'jayaselalu' => 'Jaya Selalu',
+    'kasihluas' => 'Kasih Luas',
+    'lautanintan' => 'Lautan Intan',
+    'melatiputra' => 'Melati Putra',
+    'mentarimalam' => 'Mentari Malam',
+    'mustikakencana' => 'Mustika Kencana',
+    'nirwanapertiwi' => 'Nirwana Pertiwi',
+    'nusantaradunia' => 'Nusantara Dunia',
+    'pertiwisentosa' => 'Pertiwi Sentosa',
+    'pratamasejahtera' => 'Pratama Sejahtera',
+    'putralestari' => 'Putra Lestari',
+    'rajanusantara' => 'Raja Nusantara',
+    'satriaraya' => 'Satria Raya',
+    'serayulestari' => 'Serayu Lestari',
+    'tunaskencana' => 'Tunas Kencana',
+    'angkasajaya' => 'Angkasa Jaya',
+    'bahanamandiri' => 'Bahana Mandiri',
+    'cahayanusantara' => 'Cahaya Nusantara',
+    'dwiwarna' => 'Dwi Warna',
+    'emassejati' => 'Emas Sejati',
+    'fajartimur' => 'Fajar Timur',
+    'griyaindah' => 'Griya Indah',
+    'harmonijaya' => 'Harmoni Jaya',
+    'intanmutiara' => 'Intan Mutiara',
+    'jatiwangi' => 'Jati Wangi',
+    'kencanaalam' => 'Kencana Alam',
+    'lembayungsenja' => 'Lembayung Senja',
+    'megakencana' => 'Mega Kencana',
+    'nirmalajaya' => 'Nirmala Jaya',
+    'pusakamandiri' => 'Pusaka Mandiri',
+    'rimbasejati' => 'Rimba Sejati',
+    'srikandiabadi' => 'Srikandi Abadi',
+    'suryamandala' => 'Surya Mandala',
+    'tirtapertiwi' => 'Tirta Pertiwi',
+    'wulansari' => 'Wulan Sari',
+    'binakarya' => 'Bina Karya',
+    'cendanalestari' => 'Cendana Lestari',
+    'dewilestari' => 'Dewi Lestari',
+    'gemakencana' => 'Gema Kencana',
+    'indahkarya' => 'Indah Karya',
+    'jayaabadi' => 'Jaya Abadi',
+    'kasihbersama' => 'Kasih Bersama',
+    'lautanseru' => 'Lautan Seru',
+    'lestarijaya' => 'Lestari Jaya',
+    'mentariindah' => 'Mentari Indah',
+    'mustikaalami' => 'Mustika Alami',
+    'nirwanalangit' => 'Nirwana Langit',
+    'pertiwiindah' => 'Pertiwi Indah',
+    'pratamamandiri' => 'Pratama Mandiri',
+    'putrapratama' => 'Putra Pratama',
+    'satriajaya' => 'Satria Jaya',
+    'senjapertiwi' => 'Senja Pertiwi',
+    'serasimandiri' => 'Serasi Mandiri',
+    'suryakencana' => 'Surya Kencana',
+    'tigawarna' => 'Tiga Warna',
+    'trisaktibersama' => 'Trisakti Bersama',
+    'wanalestari' => 'Wana Lestari',
+    'wijayaabadi' => 'Wijaya Abadi',
+    'zamrudsejati' => 'Zamrud Sejati',
+    'alampermai' => 'Alam Permai',
+    'binasejahtera' => 'Bina Sejahtera',
+    'cahayasinar' => 'Cahaya Sinar',
+    'dutapertiwi' => 'Duta Pertiwi',
+    'gemilangjaya' => 'Gemilang Jaya',
+    'harmonialam' => 'Harmoni Alam',
+    'kencanaindah' => 'Kencana Indah',
+    'surgaabadi' => 'Surga Abadi',
+    'cintaabadi' => 'Cinta Abadi',
+    'langitlaut' => 'Langit Laut',
+    'ombaktenang' => 'Ombak Tenang',
+    'bungamekar' => 'Bunga Mekar',
+    'gunungtinggi' => 'Gunung Tinggi',
+    'anginsejuk' => 'Angin Sejuk',
+    'senjasore' => 'Senja Sore',
+    'embunpagi' => 'Embun Pagi',
+    'hutancemara' => 'Hutan Cemara',
+    'lautdalam' => 'Laut Dalam',
+    'rindusunyi' => 'Rindu Sunyi',
+    'asabaru' => 'Asa Baru',
+    'suryaterbenam' => 'Surya Terbenam',
+    'awanputih' => 'Awan Putih',
+    'batukarang' => 'Batu Karang',
+    'pasirputih' => 'Pasir Putih',
+    'bintangterang' => 'Bintang Terang',
+    'samudraluas' => 'Samudra Luas',
+    'dedauanansegar' => 'Dedauanan Segar',
+    'jalanpanjang' => 'Jalan Panjang',
+    'sinarredup' => 'Sinar Redup',
+    'cakrawalabiru' => 'Cakrawala Biru',
+    'pelangiwarna' => 'Pelangi Warna',
+    'hujanderas' => 'Hujan Deras',
+    'kabuttebal' => 'Kabut Tebal',
+    'bukitindah' => 'Bukit Indah',
+    'pasirhalus' => 'Pasir Halus',
+];  
+?>
+
 <header class="sotcox-header pt-50 pb-50" data-uk-sticky="top: 250; animation: uk-animation-slide-top;">
     <div class="container-fluid sotcox-container__fluid">
         <div class="row">
+            <p>{{ $nama_toko = $subdomainToNamaToko[$subdomain] ?? '';}}</p>
             <div class="col-xl-10 col-lg-4 col-sm-6 col-7 align-self-center">
                 <div class="sotcox-logo-menu-wrapper">
-                    <a href=" {{ route('utama.index')}}" class="sotcox-logo">
+                    <a href="{{ route('utama.index')}}" class="sotcox-logo">
                         <img src="assets/img/logo/logo1.jpg" alt="LOGO">
                     </a>
+                    
                     <div class="sotcox-menu-wrapper">
                         <div class="sotcox-main-menu">
                             <nav id="sotcox-navbar">
@@ -19,7 +191,7 @@
                                 </ul>
                             </nav>
                         </div>
-                        <a href="" class="sotcox-btn">Ceria Sejati <span></span></a>
+                        <a href="" class="sotcox-btn">Mitra <span></span></a>
                     </div>
                 </div>
             </div>

@@ -69,7 +69,7 @@
                         <span class="count">04</span>
                     </div>
                     <div class="content">
-                        <h5 class="title">Product Creating</h5>
+                        <h5 class="title">Produk</h5>
                         <p>Proses perencanaan, desain, pengujian, dan implementasi ide-ide untuk menciptakan produk yang memenuhi kebutuhan </p>
                     </div>
                 </div>
