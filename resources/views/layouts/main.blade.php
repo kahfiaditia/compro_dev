@@ -168,7 +168,7 @@
     </aside>
     <!--====== SIDE INFO FOR DESKTOP END ======-->
 
-    @include('layouts.banner')
+    
 
     @yield('inivaluenya')
 
