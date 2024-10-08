@@ -13,9 +13,9 @@
                                 <ul>
                                     <li><a href="{{ route('utama.index')}}">Home</a></li>
                                     <li><a href="{{ route('about.index')}}">About Us</a></li>
-                                    <li><a href="">Service</a></li>
-                                    <li><a href="">Ketentuan Umum</a></li>
-                                    <li><a href="">FAQ</a></li>
+                                    <li><a href="{{ route('service.index')}}">Service</a></li>
+                                    <li><a href="{{ route('ketentuan.index')}}">Ketentuan Umum</a></li>
+                                    <li><a href="{{ route('faq.index')}}">FAQ</a></li>
                                 </ul>
                             </nav>
                         </div>
