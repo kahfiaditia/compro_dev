@@ -201,11 +201,11 @@
                         <div class="widget">
                             <h3 class="widget-title">Menu</h3>
                             <ul>
-                                <li><a href="">Home</a></li>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Services</a></li>
-                                <li><a href="">Ketentuan Umum</a></li>
-                                <li><a href="">Faq</a></li>
+                                <li><a href="{{ route('utama.index')}}">Home</a></li>
+                                <li><a href="{{ route('about.index')}}">About Us</a></li>
+                                <li><a href="{{ route('service.index')}}">Services</a></li>
+                                <li><a href="{{ route('ketentuan.index')}}">Ketentuan Umum</a></li>
+                                <li><a href="{{ route('faq.index')}}">Faq</a></li>
                             </ul>
                         </div>
                     </div>
