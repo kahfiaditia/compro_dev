@@ -212,9 +212,9 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 sotcox-custom-col mt-30">
                         <div class="widget">
                             <h3 class="widget-title">Download</h3>
-                            <a href="https://play.google.com/store" target="_blank">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Download on Google Play" style="width: 150px; margin-top: 10px;">
-                            </a>
+                            {{-- <a href="https://play.google.com/store" target="_blank"> --}}
+                                <img src="assets/img/logo/google.svg" alt="Download on Google Play" style="width: 150px; margin-top: 10px;">
+                            {{-- </a> --}}
                             
                             <!-- Ikon media sosial mendatar -->
                             <div class="sotcox-social-links mt-40">
